@@ -1,0 +1,14 @@
+
+
+La fonction 'foo()' prend en entrée une liste de plages horaires, où chaque plage est définie par deux nombres représentant le début et la fin de la plage. Par exemple, [0, 3] représente une plage de 0 à 3. La fonction organise ces plages de manière à ce qu'elles ne se chevauchent pas.
+
+
+Voici comment la fonction travaille :
+
+- Elle commence par trier les plages par ordre croissant en fonction de leur début.
+- Ensuite, elle parcourt chaque plage une par une.
+- Si une plage se chevauche avec la plage actuelle (celle qu'elle est en train de traiter), elle les fusionne pour former une seule plage plus grande.
+- Si une plage ne se chevauche pas avec la plage actuelle, la fonction ajoute la plage actuelle au résultat et commence à traiter la nouvelle plage.
+
+
+Le résultat final est une liste de plages horaires non chevauchantes, triées par ordre croissant du début de chaque plage.

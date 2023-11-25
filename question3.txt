@@ -1,0 +1,1 @@
+Il m'a fallu environ 25 minutes pour implémenter cette fonction
